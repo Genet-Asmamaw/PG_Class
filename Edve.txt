@@ -1,3 +1,4 @@
+# Exponential disturibution
 In probability theory, the exponential disturibution is defined as the probability
 distribution of the time between events in the Possion point process.
 - Exponential distribution is the continuous distribution that often concerns the amount 
