@@ -1,0 +1,83 @@
+To use git and github:-
+1. Install git from trusted website
+2. Check the verison of git:- git --verson
+3. Configure git
+ git config --global user.name 
+ git config --global user.email
+4. Create Git Folder
+ mkdir Foldername
+ cd Foldername
+5. Initialize Git
+ git init
+6. Adding new files into the folder.
+7. List the files of the folder: ls
+8. Check the status of the git whether it is part of our repository
+ git status
+
+9. Git staging environment
+ git add filename or git add . or git add --all
+-> git add filename used to move the file to the staging environment
+
+10. Git Commit
+ git commit -m "some message here"
+-> git commit used to move file from staging environment to github repository
+git log used to see the history of commit for the repository
+
+11. Git Branch
+  git branch branchname // creating a new branch
+- To check the list of branches: git branch
+- To move from one branch to another branch 
+- git checkout targetedbranchname
+- git status // used to check from which branch where we are
+- git remote add origin https://github.com/username/repository.git  // 
+
+12. Merge Branches
+ git checkout desired-branch  //usually master branch
+ git merge the-other-branch // merges the branch on the local repository
+ git push origin desired-branch // usually master branch to the remote github repository
+
+-> we can delete the second branch because it is already merged to the desired branch
+git branch -d the-other-branch // deletes the branch from local repository
+git push origin --delete branch-name // deletes the branch on github repository
+
+-----------------------------------------------------------------------------------------
+#. confusion
+Q1. How to I add file in the  newly created branch? solved
+ - git branch branch-name // creating new branch
+ - git checkout new-branch // swiching to the newly created branch
+ - touch filename.txt      // creating a new file in the newly created branch
+- after creating file open it and write some content in the text editor,
+- git add filename // to move the file into the staging area
+- git commit -m "comment here" 
+-git push origin branchname
+
+Q2. If I modify the content of the file from local repository and push to github 
+ what is the next step to use the updated content?
+ after I modify the content of the file and push it into github website,
+I get the  changes in - minus (red color) the previous  content
+ and + plus(green color ) for the current content, what to do next to use only the updated content?
+Answer: After you push the updated file to github, and refresh the github website, you will see
+compare and pull request, when you click compare & pull request, you will see - (in red) and + (green) color
+this shows only the changes made. N.B:- to use the updated file click on your github repository --> 
+select the branch --> then you will the list of folder and files with updated ones.
+
+Answer: Good Practice: before modifying the  content of the file, create a new branch and make some changes from there
+after that, merge the newly created branch to the previous branch 
+
+Q3. How to delete a file using git bash? solved
+Answer: git rm file-name // removes the file from local repository
+  git commit -m "remove file"
+ git push oirigin branch-name // reflect the deletion of the file on github
+
+Q4. If I modify the content of the file on github website and if I want to reflect the changes on the local repository as well 
+what/how to do?
+Answer: If you make some changes from remote repository and want to reflect on the local repository/folder, do 
+git pull origin branch-name
+
+Q5. How to add someone as colaborator on github website?
+ Answer: go to your repository -> settings --> collaborators -> add the collaborator. 
+
+Q6. I have created a new branch using git bash, but it is not visible on github website.
+
+
+
