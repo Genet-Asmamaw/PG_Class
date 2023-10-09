@@ -1,0 +1,70 @@
+In probability theory, the exponential disturibution is defined as the probability
+distribution of the time between events in the Possion point process.
+- Exponential distribution is the continuous distribution that often concerns the amount 
+of time until some specific event happens.
+
+- It is a process in which events happen continuously and independently at a constant 
+average rate.
+The exponential distribution has the key property of being memoryless.
+
+- The exponential random variable can be either more small values or fewer larger 
+variables
+
+# Exponential Distribution Formula
+The continuous random variable, say X is said 
+
+# Memoryless Property of Exponential Distribution
+The most important property of the exponential distribution is the memoryless property. 
+This propery is also applicable to the geometric distribution.
+An exponential distribution random variable "X" obeys
+
+# Sum fo Two independent exponential random variables
+
+# Exponential Distribution problem
+Example:-
+Assume that, yo usually get 2 phone calls per hour. calculate the probability of 
+
+------------------------------------------------------
+#. Chi-Square Goodness of Fit Test
+What is the chi-square goodness of fit test?
+The chi-square goodness of fit test is a statistical hypothesis test used to determine 
+whether a variable is likely  
+to come from a specified distribution or not.
+
+#. using chi-square goodness of fit test
+
+What do we need?
+For the goodness of fit test, we need one variable. We also need an idea
+----------------------------------------------------
+04-Oct-23
+==============
+#. Introduction to survival analysis
+. tumor
+.remission
+. censored 
+- Survival analysis is referred to statistical methods for analyzing survival data.
+- Survival data could be derived from laboratory studies of animals or from clinical 
+and epidemiologic studies
+- survival data could relate to outcomes for studying acute or chronic diesases.
+-
+#. What is Survival Time?
+ - Survival time refers to a variable which measures the time from a particular starting
+ time.
+ e.g, time initiated the treatment
+#. Censored Data
+ - Some patients may still be alive or in remission at the end of the study period.
+ - The exact survival times of these subjects are unknown
+ - These are called censored observation or censored times and can also occur when 
+ individuals are lost to follow -up after a period of study.
+
+#. Random Right Censoring
+ - Suppose 4 patients wiht acute leukemia enter a clinical study for there years.
+ - Remission times of the four patients are recored as 10, 15+, 35 and 40 months
+ - 15+ indicates that for one patient the remission time is greater than 15 months 
+ but the actual value is unknown
+
+#. Important Areas of Application
+ - clinical trials(e.g, Recovery time from heart surgery)
+ - Longitudinal or Cohort studies(e.g, time to observing the event of intereset)
+ - Life insurance (e.g, Time to file a claim)
+ - Quality control
